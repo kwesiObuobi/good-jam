@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +13,89 @@
     --black: #272a31;
     --grey: #d3d3d3;
     --orange: #ec5242;
+
+    --container-mobile: 90%;
+    --container-desktop: 75%;
+    --container-full: 100%;
 }
 
 html {
     scroll-behavior: smooth;
 }
+
+header nav {
+    display: none;
+}
+
+/*
+HEADLINE
+*/
+
+.headline {
+    background-image: url(images/headline-bg-3.png);
+    /* background-image: url(images/headline-bg1.jpg); */
+    /* background-image: url(images/headline-bg-2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: bottom center; */
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.primary-intro {
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.primary-h1 {
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-weight: 900;
+    background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secondary-text {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.date-box {
+    margin-top: 2.5rem;
+}
+
+.date {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.venue {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+/* .brand {
+    font-size: 2rem;
+    background-color: red;
+    background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
 
 
