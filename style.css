@@ -32,9 +32,7 @@ HEADLINE
 */
 
 .headline {
-    background-image: url(images/headline-bg-3.png);
-    /* background-image: url(images/headline-bg1.jpg); */
-    /* background-image: url(images/headline-bg-2.jpg); */
+    background-image: url(images/headline-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: bottom center; */
@@ -86,6 +84,98 @@ HEADLINE
     color: rgba(0, 0, 0, 0.6);
     margin-top: 0.5rem;
     font-weight: 600;
+}
+
+/*
+PROGRAM SECTION
+*/
+
+.main-program {
+    background-image: url(images/main-program.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.section-header {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.section-header::after {
+    content: "";
+    background-color: var(--orange);
+    width: 4rem;
+    height: 0.2rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1rem;
+}
+
+.program-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.program-li {
+    display: flex;
+    padding: 1rem;
+    width: 92%;
+    align-items: center;
+    margin: 0.5rem 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.program-title {
+    flex: 2;
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-weight: 900;
+    color: var(--orange);
+}
+
+.program-list-item-img {
+    width: 2rem;
+    height: 2rem;
+    flex: 1;
+}
+
+.program-desc {
+    flex: 5;
+}
+
+.join-btn {
+    width: 70%;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/*
+SPEAKERS SECTION
+*/
+
+.featured-speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.speakers-section-header {
+    color: rgba(0, 0, 0, 0.6);
 }
 
 /* .brand {
