@@ -11,10 +11,30 @@
 <body>
     <div class="site-wrapper">
         <header>
-            <!-- <div class="menu-icon">
-                <i class="fa-solid fa-bars"></i>
-            </div> -->
-            <nav>
+            <nav class="mobile-nav">
+                <div class="mobile-menu-item cross-box">
+                    <i class="fa-solid fa-xmark cross" onclick="closeMenu()"></i>
+                </div>
+                <ul class="mobile-nav-list">
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-item-a">Home</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-item-a">Program</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-item-a">Speakers</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-item-a">About</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="ticket">Get Ticket</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="desktop-nav">
                 <ul class="first-menu-list">
                     <li class="list-item">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -53,6 +73,10 @@
         </header>
 
         <section class="headline">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars hamburgur"></i>
+            </div>
+
             <div class="primary-box">
                 <p class="primary-intro">"Hello! Music Jammers!!</p>
                 <h1 class="primary-h1">GOOD JAM GLOBAL CONFERENCE <br> 2023</h1>
@@ -66,7 +90,7 @@
             </div>
         </section>
 
-        <section class="main-program">
+        <section class="main-program" id="main-program">
             <h3 class="main-program-header section-header">Main Program</h3>
 
             <ul class="program-list">
@@ -100,7 +124,7 @@
             <button class="join-btn">Join Good Jam 2023</button>
         </section>
 
-        <section class="featured-speakers">
+        <section class="featured-speakers" id="speakers">
             <h3 class="speakers-section-header section-header">Featured Speakers</h3>
 
             <ul class="speakers-list">
@@ -170,5 +194,8 @@
 
     </div> <!-- END SITE WRAPPER -->
     
+
+
+    <script src="script.js"></script>
 </body>
 </html>
