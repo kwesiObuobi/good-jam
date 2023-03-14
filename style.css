@@ -104,7 +104,6 @@ HEADLINE
     background-image: url(images/headline-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: bottom center; */
     height: 85vh;
     display: flex;
     flex-direction: column;
@@ -115,8 +114,12 @@ HEADLINE
 }
 
 .menu-icon {
-    position: absolute;
+    position: fixed;
     top: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 1px black;
 }
 
 .hamburgur {
@@ -316,16 +319,6 @@ SPEAKERS SECTION
     line-height: 1.3rem;
 }
 
-/* .brand {
-    font-size: 2rem;
-    background-color: red;
-    background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
 /*
 ABOUT SECTION
 */
@@ -334,6 +327,21 @@ ABOUT SECTION
     align-items: center;
     text-align: center;
     padding-top: 4rem;
+    position: relative;
+}
+
+.about__menu-icon {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.hamburgur {
+    font-size: 1.5rem;
 }
 
 .about__sec-text {
@@ -472,7 +480,6 @@ FOOTER
 */
 
 footer {
-    border: 2px solid red;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -494,9 +501,94 @@ footer > * {
 .site-name-footer {
     font-weight: 900;
     font-size: 1.7rem;
-    background: linear-gradient(to top right, blue, red, gold, purple, blue);
+    background: linear-gradient(to top right, blue, red, orange, purple, blue);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/*
+MEDIA QUERIES
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 768px) {
+    /*
+    HOME
+    NAV
+    */
+
+    .menu-icon {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-menu-div {
+        background-color: var(--black);
+        padding: 0.3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-menu-list {
+        display: flex;
+        width: var(--container-desktop);
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    .list-item a {
+        color: white;
+    }
+
+    .list-item a:hover {
+        cursor: pointer;
+    }
+
+    .second-menu-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-menu-list {
+        display: flex;
+        width: var(--container-desktop);
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .brand {
+        justify-self: flex-start;
+        margin-right: auto;
+        font-weight: 900;
+        font-size: 1.7rem;
+        background: linear-gradient(to top right, blue, red, gold, purple, blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .menu-item a {
+        color: var(--black);
+    }
+
+    .menu-item a:hover {
+        cursor: pointer;
+        color: var(--orange);
+    }
+
+    /*
+    HOME
+    HEADLINE
+    */
+
+    
+
+
+}

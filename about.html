@@ -5,12 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a0d7ff3ed5.js" crossorigin="anonymous"></script>
     <title>About | Good Jam Conference</title>
 </head>
 <body>
     <div class="site-wrapper">
 
+        <header>
+            <nav class="mobile-nav">
+                <div class="mobile-menu-item cross-box">
+                    <i class="fa-solid fa-xmark cross" onclick="closeMenu()"></i>
+                </div>
+                <ul class="mobile-nav-list">
+                    <li class="mobile-menu-item">
+                        <a href="./index.html" class="mobile-menu-item-a" onclick="closeMenu()">Home</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="./index.html#main-program" class="mobile-menu-item-a" onclick="closeMenu()">Program</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="./index.html#speakers" class="mobile-menu-item-a" onclick="closeMenu()">Speakers</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="./about.html" class="mobile-menu-item-a" onclick="closeMenu()">About</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="ticket">Get Ticket</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="desktop-nav">
+                <div class="first-menu-div">
+                    <ul class="first-menu-list">
+                        <li class="list-item">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">English</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">My Page</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="second-menu-div">
+                    <ul class="second-menu-list">
+                        <li class="menu-item brand">
+                            <a href="#" class="brand">Good<span>Jam</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Program</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Speakers</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Get Ticket</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
         <div class="headline about__headline">
+            <div class="about__menu-icon">
+                <i class="fa-solid fa-bars hamburgur"></i>
+            </div>
+
             <div class="primary-box">
                 <p class="primary-intro">"Hello! Music Jammers!!</p>
                 <h1 class="primary-h1">GOOD JAM GLOBAL CONFERENCE <br> 2023</h1>
@@ -84,5 +155,7 @@
         </footer>
 
     </div> <!-- END SITE WRAPPER -->
+
+    <script src="script.js"></script>
 </body>
 </html>
