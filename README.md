@@ -46,17 +46,14 @@
 - **A mobile first approach to design**
 - **The project is deployed using GitHub Pages**
 - **The project has two pages (Home and About)**
-- **Users can buy tickets to attend the conference**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Live Demo --> 
 
-<!-- UPDATE LATER -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Check out the live demo from this link](https://kwesiobuobi.github.io/portfolio-setup-and-mobile-first/)
+- Check out the [live demo](https://kwesiobuobi.github.io/good-jam/)
 <br/>
 
 
@@ -119,7 +116,8 @@ If you like this project, consider giving it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Inc for such an awesome opportunity to join their community and start a journey to become a full stack web developer.
+- I would like to thank Microverse Inc for such an awesome opportunity to join their community and start a journey to become a full stack web developer.
+- This capstone proeject is based on the original design idea [Cindy Shin in Behance](https://www.behance.net/adagio07), although a few tweaks were made. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
