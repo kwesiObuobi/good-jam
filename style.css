@@ -387,6 +387,7 @@ ABOUT SECTION
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .about__giveaway-h3 {
@@ -395,20 +396,26 @@ ABOUT SECTION
 
 .giveaway-details {
   padding: 1rem;
-  margin-bottom: 1rem;
   text-align: center;
 }
 
 .fodera-box {
-  width: 100%;
-  height: 45vh;
+  width: 80%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin-bottom: 3rem;
 }
 
 .fodera-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: left;
+  font-size: 5rem;
+  font-weight: 900;
+  background: linear-gradient(to top right, blue, red, gold, purple, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*
@@ -513,12 +520,8 @@ footer {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 5rem;
   align-items: center;
-}
-
-footer > * {
-  flex: 1;
 }
 
 .year,
@@ -535,6 +538,7 @@ footer > * {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  width: max-content;
 }
 
 /*
@@ -753,8 +757,12 @@ MEDIA QUERIES
     width: var(--container-desktop);
     margin: 0 auto;
     justify-content: space-between;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem 1rem;
+  }
+
+  .year-and-rights {
+    display: flex;
+    gap: 01rem;
   }
 
   /*
@@ -773,11 +781,13 @@ MEDIA QUERIES
   }
 
   .fodera-box {
-    height: 29vw;
+    height: 10rem;
+    width: 40%;
+    margin-top: 2rem;
   }
 
   .about__past-conferences-section {
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
 
   .past-conf-p {
@@ -814,8 +824,8 @@ MEDIA QUERIES
     margin-top: 6rem;
     width: 100%;
     background-color: var(--black);
-    /* padding-left: 15%; */
     padding: 4rem 0 4rem 15%;
+    padding-right: 15%;
   }
 
   .about-footer * {
