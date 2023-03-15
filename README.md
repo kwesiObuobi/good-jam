@@ -127,7 +127,7 @@ If you like this project, consider giving it a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse Inc for such an awesome opportunity to join their community and start a journey to become a full stack web developer.
-- This capstone proeject is based on the original design idea [Cindy Shin in Behance](https://www.behance.net/adagio07), although a few tweaks were made. 
+- This capstone proeject is based on the original design idea of [Cindy Shin in Behance](https://www.behance.net/adagio07), although a few tweaks were made. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
