@@ -13,6 +13,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -89,6 +90,15 @@ git clone https://github.com/kwesiObuobi/good-jam.git
 - Twitter: [@kwesi_obuobi](https://twitter.com/kwesi_obuobi)
 - LinkedIn: [kwesi-obuobi](https://www.linkedin.com/in/kwesi-obuobi/)
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Live Chat**
+- [ ] **Online Q & A**
+- [ ] **Seat Reservation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
