@@ -14,18 +14,6 @@ const closeMenu = () => {
 
 closeMenu();
 
-// const moreBtn = document.querySelectorAll('.more-btn');
-// const moreSpeakers = document.querySelectorAll('.speaker-more');
-
-// moreBtn.forEach((btn) => {
-//   btn.addEventListener('click', () => {
-//     btn.style.display = 'none';
-//     moreSpeakers.forEach((speaker) => {
-//       speaker.style.display = 'flex';
-//     });
-//   });
-// });
-
 const speakers = [
   {
     name: 'Israel Houghton',
@@ -74,11 +62,9 @@ const speakers = [
   },
 ];
 
-// const speakerList = document.querySelector('.speakers-list');
 const speakerList = document.createElement('ul');
 speakerList.classList.add('speakers-list');
 
-// console.log(speakerList);
 for (let i = 0; i < speakers.length; i += 1) {
   if (i === 2) {
     const moreBtn = document.createElement('li');
