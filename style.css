@@ -753,6 +753,8 @@ MEDIA QUERIES
     width: var(--container-desktop);
     margin: 0 auto;
     justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   /*
@@ -802,6 +804,22 @@ MEDIA QUERIES
 
   .partners-images {
     margin: 0 auto;
+  }
+
+  .about__partners-section {
+    display: none;
+  }
+
+  .about-footer {
+    margin-top: 6rem;
+    width: 100%;
+    background-color: var(--black);
+    /* padding-left: 15%; */
+    padding: 4rem 0 4rem 15%;
+  }
+
+  .about-footer * {
+    color: white;
   }
 }
 
